@@ -2,6 +2,11 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
   // Start coding here !
+  if (bookName.match("Beauty") !== bookName.match("Beauty")) {
+    favoriteBooks.push(bookName);
+  }
+
+  return favoriteBooks;
 }
 
 // Example case
