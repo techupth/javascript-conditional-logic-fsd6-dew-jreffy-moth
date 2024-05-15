@@ -1,5 +1,12 @@
 function calculateStudentGrade(score) {
-  // Start coding here
+  let grade;
+  score >= 90 && score <= 90 ? grade = "A"
+    : score >= 80 && score <= 89 ? grade = "B"
+    : score >= 70 && score <= 79 ? grade = "C"
+    : score >= 60 && score <= 69 ? grade = "D"
+    : score >= 0 && score <= 59 ? grade = "F"
+    : grade = "F"
+  return grade;
 }
 
 // Example case
